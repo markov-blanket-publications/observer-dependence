@@ -74,7 +74,7 @@ from a discrete probability distribution $P_X$ relative to the optimal model $\O
 \end{equation}
 
 where $H(\Omega)$ is the inextricable epistemic uncertainty of $\Omega$ concerning its own operation and $H(X|\Omega)$
-is the inextricable epistemic uncertainty of $\Omega$ relative to $P_X$.
+is the inextricable epistemic uncertainty of $\Omega$ relative to $P_X$, i.e. a measure of the complexity of $P_X$ relative to $\Omega$. 
 
 In (1) I used the fact that $\Omega$ is a probabilistic program so it makes sense to compute the expected Kolmogorov Complexity, as well as the fact that the expected Kolmogorov Complexity of a random variable equals the Shannon entropy of that variable [1]. I also implicitly assumed that ergodic assumptions are satisfied, which is the case in the regime of repeatable scientific experiments. For clarity, $\mathbb{E}[K(X)]$ is simultaneously a measure of \textit{incompressibility}, \textit{algorithmic randomness} and \textit{incompleteness} where incompleteness is understood as a measure of inextricable epistemic uncertainty. The reason for this three-way correspondence is given in the next section.
 
@@ -103,17 +103,17 @@ This suggests that perceived randomness is not observer independent. More genera
 because, in the last analysis, we ourselves are a part of the mystery
 that we are trying to solve.}-Planck
 
-To be precise, the epistemic uncertainty of $\Omega$ concerning itself is exactly $H(\Omega)$ i.e. the Minimum Description Length of $\Omega$ relative to a universal computer. It follows that the structure underlying the fundamental axioms embedded in $\Omega$ is beyond the knowledge of $\Omega$. In particular, since $\Omega$ implicitly contains a theory of computation and all such theories require arithmetic an optimal encoding of arithmetic is beyond the knowledge of $\Omega$ independently of the amount of data and computational resources available to $\Omega$.
+Indeed, a closer inspection of the difference between $H(\Omega)$ and $H(X|\Omega)$ shows that there are two fundamentally different sources of perceived randomness i.e. epistemic uncertainty. Given an observer $\Omega$, $H(X|\Omega)$ is a relative measure of system complexity. Financial markets and Brownian motion appear random because these systems have complex behaviours that remain unexplained by existing models. In the setting of complex systems, there is hope that a sufficiently powerful machine learning model may allow us to significantly reduce $H(X|\Omega)$. On the other hand, the epistemic uncertainty of $\Omega$ concerning itself is exactly $H(\Omega)$ i.e. the Minimum Description Length of $\Omega$ relative to a universal computer.
+
+It follows that the structure underlying the fundamental axioms embedded in $\Omega$ is beyond the knowledge of $\Omega$. In particular, since $\Omega$ implicitly contains a theory of computation and all such theories require arithmetic an optimal encoding of arithmetic is beyond the knowledge of $\Omega$ independently of the amount of data and computational resources available to $\Omega$.
 
 \section{Discussion}
 
 My analysis implicitly assumes the Physical Church-Turing thesis, which many theoretical computer scientists and theoretical physicists find plausible. The implications of this thesis are consistent with the 'unreasonable effectiveness of mathematics' in the natural sciences [4].
 
-Meanwhile, I have colleagues in the machine learning community that would like to use machine learning to investigate the Riemann Hypothesis though I believe that a closer inspection of (3) would provide a very useful analysis of the epistemic limits of such an enterprise. In fact, based on the insights I gained from the observer dependence theorems I recently managed to derive the prime number theorem using information-theoretic arguments [5].
+While I have colleagues in the machine learning community that would like to use machine learning to investigate the Riemann Hypothesis, I believe that a closer inspection of (3) would provide a very useful analysis of the epistemic limits of such an enterprise. In fact, based on the insights I gained from the observer dependence theorems I recently managed to derive the prime number theorem using information-theoretic arguments [5].
 
-I believe a closer inspection of the inequality (2) might also explain why the most fundamental theories in physics, Quantum Field Theory in particular, appear to describe algorithmically random phenomena. Furthermore, if consciousness is primordial
-and it does not have an algorithmic basis then it lies beyond the scientific method and if it does have an algorithmic basis
-then the physical processes that underly consciousness will appear algorithmically random.
+I believe a closer inspection of the inequality (2) might also explain why the most fundamental theories in physics, Quantum Field Theory in particular, appear to describe algorithmically random phenomena. 
 
 \section*{References}
 
