@@ -76,7 +76,7 @@ from a discrete probability distribution $P_X$ relative to the optimal model $\O
 where $H(\Omega)$ is the inextricable epistemic uncertainty of $\Omega$ concerning its own operation and $H(X|\Omega)$
 is the inextricable epistemic uncertainty of $\Omega$ relative to $P_X$, i.e. a measure of the complexity of $P_X$ relative to $\Omega$. 
 
-In (1) I used the fact that $\Omega$ is a probabilistic program so it makes sense to compute the expected Kolmogorov Complexity, as well as the fact that the expected Kolmogorov Complexity of a random variable equals the Shannon entropy of that variable [1]. I also implicitly assumed that ergodic assumptions are satisfied, which is the case in the regime of repeatable scientific experiments. For clarity, $\mathbb{E}[K(X)]$ is simultaneously a measure of \textit{incompressibility}, \textit{algorithmic randomness} and \textit{incompleteness} where incompleteness is understood as a measure of inextricable epistemic uncertainty. The reason for this three-way correspondence is given in the next section.
+In (1) I used the fact that $\Omega$ is a probabilistic program so it makes sense to compute the expected Kolmogorov Complexity, as well as the fact that the expected Kolmogorov Complexity of a random variable equals the Minimum Description Length of that variable [1]. I also implicitly assumed that ergodic assumptions are satisfied, which is the case in the regime of repeatable scientific experiments. For clarity, $\mathbb{E}[K(X)]$ is simultaneously a measure of \textit{incompressibility}, \textit{algorithmic randomness} and \textit{incompleteness} where incompleteness is understood as a measure of inextricable epistemic uncertainty. The reason for this three-way correspondence is given in the next section.
 
 Furthermore, from (1) we may deduce the \textit{Second Observer Dependence Theorem} which gives upper and lower bounds on epistemic uncertainty:
 
@@ -118,7 +118,7 @@ I believe a closer inspection of the inequality (2) might also explain why the m
 \section*{References}
 
 \small
-[1] Peter Grünwald and Paul Vitányi. Shannon Information and Kolmogorov Complexity. 2010.
+[1] Aidan Rocke. An ergodic approach to Occam's razor. 2021. 
 
 [2] Olivier Rioul. This is IT: A Primer on Shannon’s Entropy and Information. Séminaire Poincaré. 2018.
 
@@ -127,6 +127,8 @@ I believe a closer inspection of the inequality (2) might also explain why the m
 [4] Eugene Wigner. The Unreasonable Effectiveness of Mathematics in the Natural Sciences. 1960.
 
 [5] Aidan Rocke (https://mathoverflow.net/users/56328/aidan-rocke), information-theoretic derivation of the prime number theorem, URL (version: 2021-02-20): https://mathoverflow.net/q/384109
+
+[6] Peter Grünwald and Paul Vitányi. Shannon Information and Kolmogorov Complexity. 2010.
 
 
 \end{document}
